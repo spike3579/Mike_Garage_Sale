@@ -8,13 +8,14 @@ public class MikeSale{
   
   public void addAnotherItem(){ // checks to see if you want to add an item then makes an array and passes it to SaleItem constructor
     UserInput userIn = new UserInput();
-    String moreItems = userIn.getUserInput("Would you like to add a item to sell? (y/n) ");
-      if (moreItems.equals("y")){
-      
-        String[] saleItemArgs;
-        saleItemArgs = new String[3];
+    String moreItems = userIn.getUserInput("Enter an item to sell or type \"q\" to quit inputting items ");
+      if (moreItems.equals("q")){
+        System.out.println("Ok, no more items for the sale.");
+      }else{  
+        //String[] saleItemArgs;
+        String[] saleItemArgs = new String[3];
        
-        saleItemArgs[0] = userIn.getUserInput("Enter item name: ");
+        saleItemArgs[0] = moreItems; //userIn.getUserInput("Enter item name: ");
         saleItemArgs[1] = userIn.getUserInput("Enter item price (integers only): ");
         saleItemArgs[2] = userIn.getUserInput("Enter item condition (1-10): ");
         // pass args from array to constructor casting String numbers to ints
@@ -22,8 +23,6 @@ public class MikeSale{
         saleItemsList.add(toSell);
         System.out.println("Added item successfully!");
         addAnotherItem(); //recursive call!! no loops be here
-      }else{
-      System.out.println("Ok, no more items for the sale.");
       }
     }
     
