@@ -2,9 +2,9 @@
     <Session activeView="0">
         <mainView activeIndex="3">
             <File firstVisibleLine="0" xOffset="0" scrollWidth="932" startPos="0" endPos="0" selMode="0" lang="Java" encoding="-1" filename="C:\Users\Mikey\Documents\GitHub\Mike_Garage_Sale\UserInput.java" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="1242" startPos="0" endPos="0" selMode="0" lang="Java" encoding="-1" filename="C:\Users\Mikey\Documents\GitHub\Mike_Garage_Sale\SaleItem.java" />
-            <File firstVisibleLine="7" xOffset="0" scrollWidth="1562" startPos="737" endPos="737" selMode="0" lang="Java" encoding="-1" filename="C:\Users\Mikey\Documents\GitHub\Mike_Garage_Sale\MikeSale.java" />
-            <File firstVisibleLine="0" xOffset="0" scrollWidth="1372" startPos="996" endPos="996" selMode="0" lang="Java" encoding="-1" filename="C:\Users\Mikey\Documents\GitHub\Mike_Garage_Sale\TestMikeSale.java" />
+            <File firstVisibleLine="20" xOffset="0" scrollWidth="1422" startPos="668" endPos="668" selMode="0" lang="Java" encoding="-1" filename="C:\Users\Mikey\Documents\GitHub\Mike_Garage_Sale\SaleItem.java" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="2102" startPos="201" endPos="201" selMode="0" lang="Java" encoding="-1" filename="C:\Users\Mikey\Documents\GitHub\Mike_Garage_Sale\MikeSale.java" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1432" startPos="956" endPos="956" selMode="0" lang="Java" encoding="-1" filename="C:\Users\Mikey\Documents\GitHub\Mike_Garage_Sale\TestMikeSale.java" />
         </mainView>
         <subView activeIndex="0" />
     </Session>
